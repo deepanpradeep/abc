@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version:latest
+        python-version: latest
 
     - name: Run Python Script
       run: python path/to/your/script.py
