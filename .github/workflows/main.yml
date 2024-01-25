@@ -1,0 +1,22 @@
+name: Calculate Factorial
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  calculate_factorial:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version:latest
+
+    - name: Run Python Script
+      run: python path/to/your/script.py
