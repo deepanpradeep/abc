@@ -1,6 +1,6 @@
 name: Calculate Factorial
 
-on:
+on: 
   push:
     branches:
       - main 
